@@ -1,0 +1,5 @@
+FROM ubuntu
+RUN apt install nginx
+ENV telnet && openssl
+EXPOSE 9000
+CMD [nginx]
